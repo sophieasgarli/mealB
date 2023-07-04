@@ -1,0 +1,147 @@
+{
+  "type": "object",
+  "properties": {
+    "result": {
+      "type": "object",
+      "properties": {
+        "accessToken": {
+          "type": "string"
+        },
+        "encryptedAccessToken": {
+          "type": "string"
+        },
+        "expireInSeconds": {
+          "type": "integer"
+        },
+        "userId": {
+          "type": "integer"
+        },
+        "user": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "surname": {
+              "type": "string"
+            },
+            "middleName": {
+              "type": "null"
+            },
+            "companyName": {
+              "type": "null"
+            },
+            "userName": {
+              "type": "string"
+            },
+            "emailAddress": {
+              "type": "string"
+            },
+            "phoneNumber": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "address2": {
+              "type": "string"
+            },
+            "countryState": {
+              "type": "null"
+            },
+            "city": {
+              "type": "string"
+            },
+            "postalCode": {
+              "type": "string"
+            },
+            "tenantName": {
+              "type": "null"
+            },
+            "accountType": {
+              "type": "integer"
+            },
+            "birthDate": {
+              "type": "null"
+            },
+            "businessType": {
+              "type": "null"
+            },
+            "profileImageUrl": {
+              "type": "null"
+            },
+            "numberOfEmployees": {
+              "type": "null"
+            },
+            "registrationNumber": {
+              "type": "null"
+            },
+            "approximateAGI": {
+              "type": "null"
+            },
+            "businessTypeId": {
+              "type": "null"
+            },
+            "countryStateId": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "name",
+            "surname",
+            "middleName",
+            "companyName",
+            "userName",
+            "emailAddress",
+            "phoneNumber",
+            "address",
+            "address2",
+            "countryState",
+            "city",
+            "postalCode",
+            "tenantName",
+            "accountType",
+            "birthDate",
+            "businessType",
+            "profileImageUrl",
+            "numberOfEmployees",
+            "registrationNumber",
+            "approximateAGI",
+            "businessTypeId",
+            "countryStateId"
+          ]
+        }
+      },
+      "required": [
+        "accessToken",
+        "encryptedAccessToken",
+        "expireInSeconds",
+        "userId",
+        "user"
+      ]
+    },
+    "targetUrl": {
+      "type": "null"
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "error": {
+      "type": "null"
+    },
+    "unAuthorizedRequest": {
+      "type": "boolean"
+    },
+    "__abp": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "result",
+    "targetUrl",
+    "success",
+    "error",
+    "unAuthorizedRequest",
+    "__abp"
+  ]
+}
